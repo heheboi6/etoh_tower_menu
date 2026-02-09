@@ -1,0 +1,31 @@
+import unittest
+
+from domain.structure import Structure
+from repo.base_repo import InvalidDataException
+from repo.structure_repo import StructureRepo
+
+class TestStructureRepo(unittest.TestCase):
+    def setUp(self):
+        self.__structure_repo = StructureRepo()
+        self.__structure_repo.add_element(Structure("Tower of Infinity Gauntlet","Ring 1"))
+        self.__structure_repo.add_element(Structure("Citadel of Green Stuff","Zone 2"))
+        self.__structure_repo.add_element(Structure("Is This A Tower?","Time-Lost Plain"))
+    def test_get_element_from_position(self):
+        self.assertEqual(self.__structure_repo.get_element_from_position(1).get_name(),"Citadel of Green Stuff")
+        self.assertEqual(self.__structure_repo.get_element_from_position(2).get_area(),"Time-Lost Plain")
+        self.assertEqual(self.__structure_repo.get_element_from_position(0).get_area(),"Ring 1")
+        self.assertEqual(self.__structure_repo.get_element_from_position(-3).get_name(),"Tower of Infinity Gauntlet")
+        self.assertRaises(InvalidDataException, self.__structure_repo.get_element_from_position, -4)
+        self.assertRaises(InvalidDataException, self.__structure_repo.get_element_from_position, 4)
+    def test_add(self):
+        self.__test_structure = Structure("Steeple of Descendance","Silent Abyss")
+        self.__structure_repo.add_element(self.__test_structure)
+        self.assertEqual(len(self.__structure_repo),4)
+        self.assertEqual(self.__structure_repo.get_element_from_position(-1).get_area(),"Silent Abyss")
+        self.assertEqual(self.__structure_repo.get_element_from_position(-1).get_name(), "Steeple of Descendance")
+        self.assertRaises(InvalidDataException, self.__structure_repo.add_element, self.__test_structure)
+        self.assertRaises(InvalidDataException, self.__structure_repo.add_element, 17)
+    def test_str(self):
+        self.assertEqual(str(self.__structure_repo),"Tower of Infinity Gauntlet, from Ring 1\nCitadel of Green Stuff, from Zone 2\nIs This A Tower?, from Time-Lost Plain\n")
+if __name__ == '__main__':
+    unittest.main()

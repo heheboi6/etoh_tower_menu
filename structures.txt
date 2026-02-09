@@ -1,0 +1,4 @@
+Tower of Genesis;Purgatorio
+Tower of Motion Evolution;Purgatorio
+Tower of Buttons;Purgatorio
+Tower of Critical Damage;Purgatorio
