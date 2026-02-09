@@ -2,7 +2,8 @@ import unittest
 
 from domain.structure import Structure
 from repo.base_repo import InvalidDataException
-from repo.structure_repo import StructureRepo
+from repo.structure_repo import StructureRepo, StructureNotFoundException
+
 
 class TestStructureRepo(unittest.TestCase):
     def setUp(self):
@@ -27,5 +28,9 @@ class TestStructureRepo(unittest.TestCase):
         self.assertRaises(InvalidDataException, self.__structure_repo.add_element, 17)
     def test_str(self):
         self.assertEqual(str(self.__structure_repo),"Tower of Infinity Gauntlet, from Ring 1\nCitadel of Green Stuff, from Zone 2\nIs This A Tower?, from Time-Lost Plain\n")
+    def test_search_by_acronym(self):
+        self.assertEqual(self.__structure_repo.search_by_acronym("CoGS"),Structure("Citadel of Green Stuff","Zone 2"))
+        self.assertEqual(self.__structure_repo.search_by_acronym("ITAT"),Structure("Is This A Tower?","Time-Lost Plain"))
+        self.assertRaises(StructureNotFoundException,self.__structure_repo.search_by_acronym,"ToZZ")
 if __name__ == '__main__':
     unittest.main()

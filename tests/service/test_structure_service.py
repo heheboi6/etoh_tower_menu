@@ -17,11 +17,21 @@ class TestStructureService(unittest.TestCase):
         self.__structure_test_1 = Structure("Tower of Infinity Gauntlet", "Ring 1")
         self.__structure_test_2 = Structure("Citadel of Green Stuff", "Zone 2")
         self.__structure_test_3 = Structure("Is This A Tower?", "Time-Lost Plain")
+        self.__structure_service.set_sorting_parameters("name","False")
     def test_show_all_structures(self):
-        self.assertEqual(self.__structure_service.show_all_structures(), [self.__structure_test_1, self.__structure_test_2, self.__structure_test_3])
+        self.assertEqual(self.__structure_service.show_all_structures(), "Tower of Infinity Gauntlet, from Ring 1\nCitadel of Green Stuff, from Zone 2\nIs This A Tower?, from Time-Lost Plain\n")
     def test_sort_by_name(self):
-        self.assertEqual(self.__structure_service.sort_by_parameter(),[self.__structure_test_2, self.__structure_test_3, self.__structure_test_1])
-        self.assertEqual(self.__structure_service.sort_by_parameter(reverse=True),[self.__structure_test_1, self.__structure_test_3, self.__structure_test_2])
-        self.assertEqual(self.__structure_service.sort_by_parameter(key="area"),[self.__structure_test_1, self.__structure_test_3, self.__structure_test_2])
+        self.__structure_service.sort_by_parameter()
+        self.assertEqual(self.__structure_service.show_all_structures(),"Citadel of Green Stuff, from Zone 2\nIs This A Tower?, from Time-Lost Plain\nTower of Infinity Gauntlet, from Ring 1\n")
+        self.__structure_service.set_sorting_parameters("name","True")
+        self.__structure_service.sort_by_parameter()
+        self.assertEqual(self.__structure_service.show_all_structures(),"Tower of Infinity Gauntlet, from Ring 1\nIs This A Tower?, from Time-Lost Plain\nCitadel of Green Stuff, from Zone 2\n")
+        self.__structure_service.set_sorting_parameters("area", "False")
+        self.__structure_service.sort_by_parameter()
+        self.assertEqual(self.__structure_service.show_all_structures(),"Tower of Infinity Gauntlet, from Ring 1\nIs This A Tower?, from Time-Lost Plain\nCitadel of Green Stuff, from Zone 2\n")
+    def test_show_sorting_parameters(self):
+        self.assertEqual(self.__structure_service.show_sorting_parameters(),"The current sorting will be made using the name of the structure, in normal order.")
+        self.__structure_service.set_sorting_parameters("area","True")
+        self.assertEqual(self.__structure_service.show_sorting_parameters(),"The current sorting will be made using the area of the structure, in reverse order.")
 if __name__ == '__main__':
     unittest.main()

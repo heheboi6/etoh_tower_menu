@@ -13,8 +13,17 @@ class Structure:
     def get_area(self) -> str:
         return self.__area
     def get_acronym(self) -> str:
-        words = self.get_name().split()
         acronym = ""
-        for word in words:
-            acronym += word[0]
+        acronym_char = True
+        for character in self.get_name():
+            if acronym_char:
+                acronym += character
+                acronym_char = False
+            elif character == " ":
+                acronym_char = True
+            elif character == "(" or character == ")":
+                acronym_char = True
+                acronym += character
+            elif character.isdigit():
+                acronym += character
         return acronym
