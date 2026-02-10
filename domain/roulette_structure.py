@@ -26,9 +26,15 @@ class RouletteStructure(Structure):
         else:
             str_return += f", and you need to beat it {self.__beat_limit} times to eliminate it."
         return str_return
+    def __eq__(self, other):
+        if type(other) is not RouletteStructure:
+            return False
+        return self.get_acronym() == other.get_acronym()
     def beat_structure(self) -> None:
         self.__times_beaten += 1
         if self.__times_beaten >= self.__beat_limit:
             self.__eliminated = True
     def get_eliminated(self) -> bool:
         return self.__eliminated
+    def show_fraction(self) -> str:
+        return str(self.__times_beaten) + "/" + str(self.__beat_limit)

@@ -11,12 +11,12 @@ class ShowTowerMenu:
         print("Choose an option from the menu:")
         print("1. Change the sorting method;")
         print("2. Show all of the structures in a sorted order;")
-        print("3. Exit")
+        print("3. Go back to the main menu;")
     def run(self):
         while True:
             self.__print_menu()
             self.__ui_show_sorting_parameters()
-            choice = input("Enter your choice: ")
+            choice = input("Enter your option: ")
             if choice == "1":
                 self.__ui_set_sorting_parameters()
             elif choice == "2":
@@ -24,7 +24,7 @@ class ShowTowerMenu:
             elif choice == "3":
                 break
             else:
-                print(Fore.RED + "This choice was not found in the menu, please try again." + Style.RESET_ALL)
+                print(Fore.RED + "This option was not found in the menu, please try again." + Style.RESET_ALL)
     def __ui_show_sorting_parameters(self):
         print(Fore.BLUE + "\n" + self.__structure_service.show_sorting_parameters() + "\n" + Style.RESET_ALL)
     def __ui_set_sorting_parameters(self):

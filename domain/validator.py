@@ -1,3 +1,4 @@
+import os
 class ValidationException(Exception):
     def __init__(self, message):
         super().__init__(message)
@@ -16,3 +17,22 @@ class Validator:
         if reverse == "True":
             return [key,True]
         return [key,False]
+    @staticmethod
+    def validate_pozitive_integer(number : int):
+        if number <= 0:
+            raise ValidationException("The number must be greater than 0!")
+    @staticmethod
+    def validate_file_name(file_name : str):
+        if not os.path.exists(file_name):
+            raise ValidationException(f"The file {file_name} does not exist!")
+        return
+    @staticmethod
+    def validate_save_file(string : str):
+        if string == "":
+            raise ValidationException("The string cannot be an empty string!")
+        extension_split = string.split(".")
+        if len(extension_split) != 2:
+            raise ValidationException(f"The save file must have an extension!")
+        if extension_split[1] != "txt":
+            raise ValidationException(f"The save file must be a text file(with the extension .txt)!")
+        return
