@@ -8,9 +8,9 @@ class TestGeneralUseFunctions(unittest.TestCase):
     def setUp(self):
         self.__functions = GeneralUseFunctions()
         self.__test_list_1 = [1,5,8,3,7,1,6,3,8,6,3]
-        self.__structure_test_1 = Structure("Tower of Infinity Gauntlet", "Ring 1")
-        self.__structure_test_2 = Structure("Citadel of Green Stuff", "Zone 2")
-        self.__structure_test_3 = Structure("Is This A Tower?", "Time-Lost Plain")
+        self.__structure_test_1 = Structure("Tower of Infinity Gauntlet", "Ring 1",8.23,"Tower")
+        self.__structure_test_2 = Structure("Citadel of Green Stuff", "Zone 2",6.39,"Citadel")
+        self.__structure_test_3 = Structure("Is This A Tower?", "Time-Lost Plain",5.81,"Mini Tower")
         self.__test_list_2 = [self.__structure_test_1,self.__structure_test_2,self.__structure_test_3]
     def test_true_merge_sort(self):
         self.__functions.true_merge_sort(self.__test_list_1)

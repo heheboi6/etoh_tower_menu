@@ -1,4 +1,6 @@
-Tower of Genesis;Purgatorio
-Tower of Motion Evolution;Purgatorio
-Tower of Buttons;Purgatorio
-Tower of Critical Damage;Purgatorio
+Tower of Genesis;Purgatorio;1.00;Tower
+Tower of Motion Evolution;Purgatorio;1.46;Tower
+Tower of Buttons;Purgatorio;1.48;Tower
+Tower of Critical Damage;Purgatorio;1.93;Tower
+Purgatorio Tower Rush;Purgatorio;5.41;Tower Rush
+Pit of Misery Tower Rush;Pit of Misery;14.99;Tower Rush

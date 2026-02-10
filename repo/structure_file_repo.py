@@ -19,7 +19,9 @@ class StructureFileRepo(StructureRepo):
                     data[-1] = data[-1].replace("\n", "")
                     name = data[0]
                     area = data[1]
-                    new_structure = Structure(name, area)
+                    difficulty = float(data[2])
+                    tower_type = data[3]
+                    new_structure = Structure(name, area, difficulty, tower_type)
                     self.add_element(new_structure)
                 except (IndexError,InvalidDataException):
                     raise CorruptedFileException("The file does not contain correct or complete structure data!")
@@ -28,5 +30,5 @@ class StructureFileRepo(StructureRepo):
         with open(self.__file_name, "w") as file:
             for index in range(len(self)):
                 current_structure = self.get_element_from_position(index)
-                file.write(current_structure.get_name() + ";" + current_structure.get_area() + "\n")
+                file.write(current_structure.get_name() + ";" + current_structure.get_area() + ";" + str(current_structure.get_difficulty()) + ";" + current_structure.get_tower_type() + "\n")
             file.close()

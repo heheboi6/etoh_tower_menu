@@ -3,7 +3,7 @@ class ValidationException(Exception):
     def __init__(self, message):
         super().__init__(message)
 class Validator:
-    __ACCEPTED_PARAMETERS = ("name","area")
+    __ACCEPTED_PARAMETERS = ("name","area","difficulty","tower_type")
     __BOOL_VALUES = ("True","False")
     @staticmethod
     def validate_sorting_parameters(key : str, reverse : str) -> list[str|bool]:

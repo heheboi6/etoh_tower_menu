@@ -1,12 +1,11 @@
 from colorama import Fore, Style
 
 from domain.validator import ValidationException
-from service import roulette_service
 from service.roulette_service import RouletteService
 
 class RouletteMenu:
-    def __init__(self, roulette_servic : RouletteService):
-        self.__roulette_service = roulette_servic
+    def __init__(self, roulette_service : RouletteService):
+        self.__roulette_service = roulette_service
         self.__roulette_active = False
     @staticmethod
     def __read_option():
@@ -17,7 +16,7 @@ class RouletteMenu:
             elif file_option == "new":
                 return file_option
             else:
-                print(Fore.RED + "Please try again, and enter a valid option." + Style.RESET_ALL)
+                print(Fore.RED + "You did not enter a valid option, please try again." + Style.RESET_ALL)
     def __mini_random_menu(self):
         while True:
             structure_choice = input("Do you want to beat this structure, or skip it? (beat/skip)").strip().lower()
@@ -29,17 +28,31 @@ class RouletteMenu:
             elif structure_choice == "skip":
                 return
             else:
-                print(Fore.RED + "Please try again, and enter a valid option." + Style.RESET_ALL)
+                print(Fore.RED + "You did not enter a valid option, please try again." + Style.RESET_ALL)
     @staticmethod
-    def __read_exit():
+    def __read_yes_no(message : str):
         while True:
-            exit_option = input("Do you want to exit the roulette? (y/n):").strip().lower()
+            exit_option = input(message).strip().lower()
             if exit_option == "y":
                 return True
             elif exit_option == "n":
                 return False
             else:
-                print(Fore.RED + "Please try again, and enter a valid option." + Style.RESET_ALL)
+                print(Fore.RED + "You did not enter a valid option, please try again." + Style.RESET_ALL)
+    def __read_tower_rush_option(self):
+        while True:
+            tower_rush_option = input("Enter the number of the option that you want:").strip().lower()
+            if tower_rush_option == "1":
+                self.__roulette_service.set_tower_rush_mode("none")
+                return
+            elif tower_rush_option == "2":
+                self.__roulette_service.set_tower_rush_mode("from start")
+                return
+            elif tower_rush_option == "3":
+                self.__roulette_service.set_tower_rush_mode("progressive")
+                return
+            else:
+                print(Fore.RED + "You did not enter a valid option, please try again." + Style.RESET_ALL)
     @staticmethod
     def __print_menu():
         print("Choose an option from the menu:")
@@ -48,6 +61,12 @@ class RouletteMenu:
         print("3. Save the roulette to a file;")
         print("4. Generate a random tower according to the created roulette;")
         print("5. Go back to the main menu;")
+    @staticmethod
+    def __print_tower_rush_options():
+        print("Before continuing, you need to choose in which way do you want to include tower rushes:\n")
+        print("1. Do not include tower rushes in the roulette in any way.")
+        print("2. Include every tower rush in the roulette from the very start.")
+        print("3. Add tower rushes to the roulette only when you beat every tower in an area once, and increase the limit to 2 when you beat every tower twice, to 3 when you beat every tower 3 times, and so on.")
     def run(self):
         while True:
             self.__print_menu()
@@ -78,6 +97,11 @@ class RouletteMenu:
             else:
                 beat_limit = int(input("Please enter how many times do you want to beat a tower before it is eliminated from the roulette:"))
                 self.__roulette_service.create_roulette(beat_limit=beat_limit)
+                self.__print_tower_rush_options()
+                self.__read_tower_rush_option()
+                if self.__roulette_service.get_tower_rush_mode() != "none":
+                    response = self.__read_yes_no("Do you want to include Pit of Misery Tower Rush in this roulette?(y/n)")
+                    self.__roulette_service.set_include_pomtr(response)
                 print(Fore.BLUE + "The roulette has been created successfully, and the other options in the menu are now open." + Style.RESET_ALL)
                 self.__roulette_active = True
         except ValidationException as error:
@@ -98,13 +122,12 @@ class RouletteMenu:
         if total_structures[0] >= total_structures[1]:
             print(Fore.RED + "You already beat every tower in this roulette, you cannot generate new towers anymore." + Style.RESET_ALL)
             return
-        print(Fore.GREEN + "The roulette will auto-save your beaten towers and your last tower, so don't worry about saving." + Style.RESET_ALL)
+        print(Fore.GREEN + "The roulette will auto-save your beaten towers and your last tower if it is saved in a file, so don't worry about saving in that case." + Style.RESET_ALL)
         last_structure = self.__roulette_service.get_last_structure()
         if last_structure is not None:
             print("The last structure that the roulette gave you before leaving was:\n" + Fore.BLUE + str(last_structure) + "\n" + Style.RESET_ALL)
             self.__mini_random_menu()
         while True:
-            print("You do not have a random structure, it will be generated soon.\n")
             random_structure_str = self.__roulette_service.generate_random_structure()
             print("The structure that the roulette gave you is:\n" + Fore.BLUE + random_structure_str + "\n" + Style.RESET_ALL)
             self.__mini_random_menu()
@@ -112,6 +135,6 @@ class RouletteMenu:
             if total_structures[0] >= total_structures[1]:
                 print(Fore.BLUE + "You have beaten every tower that the roulette gave you, congratulations!" + Style.RESET_ALL)
                 return
-            exit_option = self.__read_exit()
+            exit_option = self.__read_yes_no("Do you want to exit the roulette? (y/n):")
             if exit_option:
                 return

@@ -1,18 +1,17 @@
 import unittest
 
 from domain.roulette_structure import RouletteStructure
-from domain.structure import Structure
 
 
 class TestRouletteStructure(unittest.TestCase):
     def setUp(self):
-        self.__structure_test_1 = RouletteStructure("Tower of Infinity Gauntlet","Ring 1")
-        self.__structure_test_2 = RouletteStructure("Citadel of Green Stuff","Zone 2",times_beaten=1,beat_limit=3)
-        self.__structure_test_3 = RouletteStructure("Is This A Tower?","Time-Lost Plain",times_beaten=2,beat_limit=2)
+        self.__structure_test_1 = RouletteStructure("Tower of Infinity Gauntlet","Ring 1",8.23,"Tower")
+        self.__structure_test_2 = RouletteStructure("Citadel of Green Stuff","Zone 2",6.39,"Citadel",times_beaten=1,beat_limit=3)
+        self.__structure_test_3 = RouletteStructure("Is This A Tower?","Time-Lost Plain",5.81,"Mini Tower",times_beaten=2,beat_limit=2)
     def test_str(self):
-        self.assertEqual(str(self.__structure_test_1),"Tower of Infinity Gauntlet, from Ring 1, you didn't beat this tower yet, and you need to beat it once to eliminate it.")
-        self.assertEqual(str(self.__structure_test_2),"Citadel of Green Stuff, from Zone 2, you beat this tower once, and you need to beat it 3 times to eliminate it.")
-        self.assertEqual(str(self.__structure_test_3),"Is This A Tower?, from Time-Lost Plain, you have beaten this tower enough so that it can be eliminated from the roulette.")
+        self.assertEqual(str(self.__structure_test_1),"Tower of Infinity Gauntlet, from Ring 1, with the difficulty Low Insane(8.23), you didn't beat this tower yet, and you need to beat it once to eliminate it.")
+        self.assertEqual(str(self.__structure_test_2),"Citadel of Green Stuff, from Zone 2, with the difficulty Low-Mid Intense(6.39), you beat this tower once, and you need to beat it 3 times to eliminate it.")
+        self.assertEqual(str(self.__structure_test_3),"Is This A Tower?, from Time-Lost Plain, with the difficulty High-Peak Challenging(5.81), you have beaten this tower enough so that it can be eliminated from the roulette.")
     def test_eq(self):
         self.assertEqual(self.__structure_test_1,self.__structure_test_1)
         self.assertNotEqual(self.__structure_test_1,self.__structure_test_2)

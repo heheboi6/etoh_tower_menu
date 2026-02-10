@@ -2,3 +2,4 @@ ToIG 0/3
 CoGS 1/4
 ITAT 2/3
 ToIG
+progressive False

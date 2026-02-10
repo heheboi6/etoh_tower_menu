@@ -19,5 +19,9 @@ class BaseRepo:
         if type(element) != self.__repo_class:
             raise InvalidDataException(f"The element is not from the correct class!")
         self.__repo_list.append(element)
+    def remove_element(self, element):
+        if element not in self.__repo_list:
+            raise InvalidDataException("The element could not be found in the list!")
+        self.__repo_list.remove(element)
     def get_list(self):
         return self.__repo_list

@@ -2,8 +2,8 @@ from domain.structure import Structure
 
 
 class RouletteStructure(Structure):
-    def __init__(self, name : str, area : str, *, times_beaten = 0, beat_limit = 1):
-        super().__init__(name,area)
+    def __init__(self, name : str, area : str, difficulty : float, tower_type : str, *, times_beaten = 0, beat_limit = 1):
+        super().__init__(name,area,difficulty,tower_type)
         self.__times_beaten = times_beaten
         self.__beat_limit = beat_limit
         if times_beaten >= beat_limit:
@@ -11,7 +11,7 @@ class RouletteStructure(Structure):
         else:
             self.__eliminated = False
     def __str__(self):
-        str_return = f"{self.get_name()}, from {self.get_area()}"
+        str_return = super().__str__()
         if self.__eliminated:
             str_return += ", you have beaten this tower enough so that it can be eliminated from the roulette."
             return str_return

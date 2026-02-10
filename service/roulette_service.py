@@ -10,6 +10,23 @@ class RouletteService:
         self.__structure_repo = structure_repo
         self.__roulette_repo = None
         self.__validator = Validator()
+    @staticmethod
+    def __is_tower_rush(structure : RouletteStructure) -> bool:
+        if "Tower Rush" in structure.get_name():
+            return True
+        else:
+            return False
+    def __eliminate_tower_rushes(self):
+        index = 0
+        while index < len(self.__roulette_repo):
+            current_structure = self.__roulette_repo.get_element_from_position(index)
+            if self.__is_tower_rush(current_structure) and self.get_tower_rush_mode() != "from start":
+                self.__roulette_repo.remove_element(current_structure)
+                index -= 1
+            if self.get_tower_rush_mode() == "from start" and current_structure.get_name() == "Pit of Misery Tower Rush" and not self.__get_include_pomtr():
+                self.__roulette_repo.remove_element(current_structure)
+                index -= 1
+            index += 1
     def create_roulette(self, *, beat_limit=1, file_name=""):
         if file_name != "":
             self.__validator.validate_file_name(file_name)
@@ -18,7 +35,7 @@ class RouletteService:
             self.__roulette_repo = RouletteStructureFileRepo(self.__structure_repo)
             for index in range(len(self.__structure_repo)):
                 current_structure = self.__structure_repo.get_element_from_position(index)
-                new_structure = RouletteStructure(current_structure.get_name(),current_structure.get_area(),beat_limit=beat_limit)
+                new_structure = RouletteStructure(current_structure.get_name(),current_structure.get_area(),current_structure.get_difficulty(),current_structure.get_tower_type(),beat_limit=beat_limit)
                 self.__roulette_repo.add_element(new_structure)
         else:
             self.__roulette_repo = RouletteStructureFileRepo(self.__structure_repo,file_name=file_name)
@@ -64,3 +81,13 @@ class RouletteService:
         return [total_beaten,total_structures]
     def __get_last_eliminated(self) -> bool:
         return self.get_last_structure().get_eliminated()
+    def set_tower_rush_mode(self, new_mode : str):
+        self.__roulette_repo.set_tower_rush_mode(new_mode)
+        self.__eliminate_tower_rushes()
+    def get_tower_rush_mode(self) -> str:
+        return self.__roulette_repo.get_tower_rush_mode()
+    def set_include_pomtr(self, include_pomtr : bool):
+        self.__roulette_repo.set_include_pomtr(include_pomtr)
+        self.__eliminate_tower_rushes()
+    def __get_include_pomtr(self) -> bool:
+        return self.__roulette_repo.get_include_pomtr()

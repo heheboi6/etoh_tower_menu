@@ -8,16 +8,16 @@ from repo.structure_file_repo import StructureFileRepo, CorruptedFileException
 class TestRouletteStructureFileRepo(unittest.TestCase):
     def setUp(self):
         with open("tests/roulette_structures_test.txt", "w") as file:
-            file.writelines(["ToIG 0/3\n","CoGS 1/3\n","ITAT 2/3\n","ToIG"])
+            file.writelines(["ToIG 0/3\n","CoGS 1/3\n","ITAT 2/3\n","ToIG\n","none"])
             file.close()
         with open("tests/corrupted_roulette_structures.txt", "w") as file:
             file.writelines(["ToDAN\n","1/3\n","4\n"])
             file.close()
         with open("tests/structures_test.txt", "w") as file:
-            file.write("Tower of Infinity Gauntlet;Ring 1\n")
-            file.write("Citadel of Green Stuff;Zone 2\n")
-            file.write("Is This A Tower?;Time-Lost Plain\n")
-            file.write("Steeple of Wicked Grotto;Silent Abyss")
+            file.write("Tower of Infinity Gauntlet;Ring 1;8.23;Tower\n")
+            file.write("Citadel of Green Stuff;Zone 2;6.39;Citadel\n")
+            file.write("Is This A Tower?;Time-Lost Plain;5.81;Mini Tower\n")
+            file.write("Steeple of Wicked Grotto;Silent Abyss;6.02;Steeple")
             file.close()
         self.__file_repo = StructureFileRepo("tests/structures_test.txt")
     def test_load_from_file(self):
@@ -33,7 +33,7 @@ class TestRouletteStructureFileRepo(unittest.TestCase):
     def test_store_into_file(self):
         repo_test = RouletteStructureFileRepo(self.__file_repo,file_name="tests/roulette_structures_test.txt")
         repo_test.load_from_file()
-        repo_test.add_element(RouletteStructure("Steeple of Wicked Grotto","Silent Abyss",times_beaten=1,beat_limit=5))
+        repo_test.add_element(RouletteStructure("Steeple of Wicked Grotto","Silent Abyss",6.02,"Steeple",times_beaten=1,beat_limit=5))
         repo_test.store_into_file()
         repo_test.load_from_file()
         self.assertEqual(len(repo_test),4)
