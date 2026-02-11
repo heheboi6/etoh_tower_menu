@@ -22,10 +22,14 @@ class RouletteMenu:
             structure_choice = input("Do you want to beat this structure, or skip it? (beat/skip)").strip().lower()
             if structure_choice == "beat":
                 eliminated = self.__roulette_service.beat_current_structure()
+                warning = self.__roulette_service.update_rushes()
                 if eliminated:
                     print(Fore.BLUE + "This tower has been eliminated from the roulette, good job." + Style.RESET_ALL)
+                if warning:
+                    print(Fore.BLUE + "An additional tower rush has been added to the roulette, good luck!" + Style.RESET_ALL)
                 return
             elif structure_choice == "skip":
+                self.__roulette_service.update_when_skip()
                 return
             else:
                 print(Fore.RED + "You did not enter a valid option, please try again." + Style.RESET_ALL)
@@ -59,8 +63,9 @@ class RouletteMenu:
         print("1. Create a new roulette, or load an existing roulette;")
         print("2. Show everything in the roulette;")
         print("3. Save the roulette to a file;")
-        print("4. Generate a random tower according to the created roulette;")
-        print("5. Go back to the main menu;")
+        print("4. Show roulette statistics;")
+        print("5. Generate a random tower according to the created roulette;")
+        print("6. Go back to the main menu;")
     @staticmethod
     def __print_tower_rush_options():
         print("Before continuing, you need to choose in which way do you want to include tower rushes:\n")
@@ -78,11 +83,13 @@ class RouletteMenu:
             elif choice == "3" and self.__roulette_active:
                 self.__ui_save_roulette()
             elif choice == "4" and self.__roulette_active:
+                self.__ui_show_roulette_statistics()
+            elif choice == "5" and self.__roulette_active:
                 self.__ui_generate_random_structure()
-            elif choice == "5":
+            elif choice == "6":
                 break
             else:
-                if choice in ["2","3","4"] and not self.__roulette_active:
+                if choice in ["2","3","4","5"] and not self.__roulette_active:
                     print(Fore.BLUE + "This option is valid, but you can't access it until you created the roulette." + Style.RESET_ALL)
                 else:
                     print(Fore.RED + "This option was not found in the menu, please try again." + Style.RESET_ALL)
@@ -117,6 +124,10 @@ class RouletteMenu:
             print(Fore.RED + str(error) + Style.RESET_ALL)
     def __ui_show_roulette(self):
         print(self.__roulette_service.show_roulette())
+    def __ui_show_roulette_statistics(self):
+        total = self.__roulette_service.get_roulette_total()
+        print(Fore.BLUE + f"The number of towers beaten in the roulette is {str(total[0])}, and the total number of towers in the roulette is {str(total[1])}." + Style.RESET_ALL)
+        print(Fore.BLUE + self.__roulette_service.show_area_tower_stats() + Style.RESET_ALL)
     def __ui_generate_random_structure(self):
         total_structures = self.__roulette_service.get_roulette_total()
         if total_structures[0] >= total_structures[1]:
@@ -127,6 +138,13 @@ class RouletteMenu:
         if last_structure is not None:
             print("The last structure that the roulette gave you before leaving was:\n" + Fore.BLUE + str(last_structure) + "\n" + Style.RESET_ALL)
             self.__mini_random_menu()
+            total_structures = self.__roulette_service.get_roulette_total()
+            if total_structures[0] >= total_structures[1]:
+                print(Fore.BLUE + "You have beaten every tower that the roulette gave you, congratulations!" + Style.RESET_ALL)
+                return
+            exit_option = self.__read_yes_no("Do you want to exit the roulette? (y/n):")
+            if exit_option:
+                return
         while True:
             random_structure_str = self.__roulette_service.generate_random_structure()
             print("The structure that the roulette gave you is:\n" + Fore.BLUE + random_structure_str + "\n" + Style.RESET_ALL)

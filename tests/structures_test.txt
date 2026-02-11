@@ -1,3 +1,9 @@
 Tower of Infinity Gauntlet;Ring 1;8.23;Tower
 Citadel of Green Stuff;Zone 2;6.39;Citadel
 Is This A Tower?;Time-Lost Plain;5.81;Mini Tower
+Steeple of Wicked Grotto;Silent Abyss;6.02;Steeple
+Tower of Extraterrestrial Enchantment;Zone 2;6.49;Tower
+Tower of Annoying Paths(Monthly);Time-Lost Plain;7.08;Tower
+Tower of Modernistic Design Choices;Pit of Misery;1.84;Tower
+Zone 2 Tower Rush;Zone 2;8.84;Tower Rush
+Pit of Misery Tower Rush;Pit of Misery;14.99;Tower Rush

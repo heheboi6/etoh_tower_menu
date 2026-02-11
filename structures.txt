@@ -1,6 +1,725 @@
-Tower of Genesis;Purgatorio;1.00;Tower
+100M Celebration;100M Replay;1.31;Mini Tower
+100M Trial;100M Replay;1.4;Mini Tower
+100M Finale;100M Replay;6.52;Mini Tower
+100M Revenge;100M Replay;9.92;Mini Tower
+Mini Steeple of Gamer Moments(April Fools 2021);April Fools 2021;2.9;Mini Steeple
+Tower of Da Baby(April Fools 2021);April Fools 2021;10.35;Tower
+Tower of Yo Mama(April Fools 2021);April Fools 2021;2.48;Tower
+Tower of Round Platforms(April Fools 2021);April Fools 2021;5.76;Tower
+Tower of u a(April Fools 2021);April Fools 2021;6.05;Tower
+Tower of Hella Gimmicks(April Fools 2021);April Fools 2021;7.91;Tower
+Baldi Tower(April Fools 2021);April Fools 2021;8.62;Tower
+Tower of High Quality Fishing Boat(April Fools 2022);April Fools 2022;3.20;Tower
+Tower of Crazy Rollercoaster Riding(April Fools 2022);April Fools 2022;4.19;Tower
+ESCAPE FROM FEDDY FAZBEAR(April Fools 2022);April Fools 2022;4.38;Tower
+Goobie's(April Fools 2022);April Fools 2022;5.66;Tower
+Tower of Coca Cola Espuma(April Fools 2022);April Fools 2022;7.16;Tower
+Tower of Terrain Climbing Adventures(April Fools 2022);April Fools 2022;8.12;Tower
+Lemonade Luh Luh Lemonade(April Fools 2023);April Fools 2023;2.88;Tower
+Rainbow Tower(April Fools 2023);April Fools 2023;3.97;Tower
+TheVision of TheVision of Tower of TheVision of TheVision(April Fools 2023);April Fools 2023;4.24;Tower
+Citadel of A Bug's Life!(April Fools 2023);April Fools 2023;6.94;Citadel
+Tower of Drinking Purist Water(April Fools 2023);April Fools 2023;7.69;Tower
+Steeple of Gears Locked Up Because It's Cold(April Fools 2023);April Fools 2023;8.77;Steeple
+" Tower of Oblivion "(April Fools 2023);April Fools 2023;14.16;Tower
+Water Slide of Crazy Difficult(April Fools 2024);April Fools 2024;2.82;Steeple
+Tower of Getting Kinda Disappointed(April Fools 2024);April Fools 2024;3.55;Tower
+EESHOL(April Fools 2024);April Fools 2024;3.72;Tower
+Tower Of Generation Retro(April Fools 2024);April Fools 2024;4.81;Tower
+Dazzling Extraordinary Albutower(April Fools 2024);April Fools 2024;5.23;Mini Tower
+Tower of The Conscious Fallacy(April Fools 2024);April Fools 2024;6.95;Tower
+Tower of Sparkling Rainbow Water(April Fools 2024);April Fools 2024;7.29;Tower
+Tower 1(April Fools 2024);April Fools 2024;9.29;Tower
+Tower of Quick, Brown Fox!(April Fools 2024);April Fools 2024;6.02;Tower
+Mini Citadel of Mini Citadel(April Fools 2024);April Fools 2024;8.04;Mini Citadel
+Tower of muumitalo(April Fools 2025);April Fools 2025;10.24;Tower
+Tower of pro pillars(April Fools 2025);April Fools 2025;11.66;Tower
+Tower of Perlin Dreams of Greatness(April Fools 2025);April Fools 2025;11.75;Tower
+Tower of small pillars(April Fools 2025);April Fools 2025;12.3;Tower
+Tower of Splice Construct(April Fools 2025);April Fools 2025;12.36;Tower
+Tower of Yelling : Slightly Upset(April Fools 2025);April Fools 2025;2.54;Tower
+Tower of Vesi Leikki(April Fools 2025);April Fools 2025;3.5;Tower
+ETOH TYCOON TYCOON TYCOON TYCOON(April Fools 2025);April Fools 2025;4.74;Steeple
+Mush Stepl(April Fools 2025);April Fools 2025;5.44;Steeple
+Tower of Really Very Artificial Inspiration(April Fools 2025);April Fools 2025;5.96;Tower
+Tower of Not Like Us(April Fools 2025);April Fools 2025;6.69;Tower
+Cringe Tower & Hinge Tower(April Fools 2025);April Fools 2025;6.99;Tower
+Tower of BIG IGB GIB FAIL AILF ILFA LFAI(April Fools 2025);April Fools 2025;7.28;Tower
+Totally A Neat(April Fools 2025);April Fools 2025;7.45;Mini Tower
+Tower of Class Resident Storage(April Fools 2025);April Fools 2025;7.96;Tower
+Steeple of Tombs & Torture(April Fools 2025);April Fools 2025;8.88;Steeple
+Mini Obelisk of Mini Obelisk(April Fools 2025);April Fools 2025;9.13;Mini Obelisk
+Tower of g Möller(April Fools 2025);April Fools 2025;9.27;Obelisk
+Citadel of Walkies(April Fools 2025);April Fools 2025;9.42;Citadel
+Maybe I Know U(April Fools 2025);April Fools 2025;10.90;Box
+Huvin ja Hauskanpidon Torni(April Fools 2025);April Fools 2025;16.99;Tower
+Steeple of Biome Traversing;Arcane Area;2.39;Steeple
+Steeple of Astounding Sorcery;Arcane Area;2.44;Steeple
+Steeple of Realm Odyssey;Arcane Area;3.17;Steeple
+Steeple of Atmospheric Powers;Arcane Area;3.36;Steeple
+Steeple of Twisted Crystals;Arcane Area;4.15;Steeple
+Steeple of Magical Elements;Arcane Area;4.81;Steeple
+Steeple of Crystal Ascension;Arcane Area;5.23;Steeple
+Steeple of Witch Calamity;Arcane Area;5.81;Steeple
+Steeple of Magical Collaborations;Arcane Area;6.22;Steeple
+Tower of Icy Adventures;Arcane Area;7.03;Tower
+Tower of Fruity Zeal;Ashen Towerworks;2.66;Tower
+Tower of Viaduct Traversing;Ashen Towerworks;3.88;Tower
+Tower of Corner Wedge Climbing;Ashen Towerworks;4.23;Tower
+Tower of Wanting More Time;Ashen Towerworks;5.03;Tower
+Tower of Shadowy Radiance;Ashen Towerworks;6.08;Tower
+Tower of Whisking It All;Ashen Towerworks;6.26;Tower
+Tower of Whirl of Winds;Ashen Towerworks;6.42;Tower
+Tower of Largely Limited Luminance;Ashen Towerworks;6.55;Tower
+Tower of Forever-Sleeping Flower;Ashen Towerworks;7.02;Tower
+Tower of Climactic Beats;Ashen Towerworks;7.06;Tower
+Tower of Rhythm Heaven;Ashen Towerworks;7.74;Tower
+Tower of Mechanical Disarray;Ashen Towerworks;7.79;Tower
+Tower of Wicked Fortress;Ashen Towerworks;9.39;Tower
+Steeple of Amazing Gifts(Christmas 2018);Christmas 2018;2.83;Steeple
+Steeple of Frantic Terrificness(Christmas 2018);Christmas 2018;4.36;Steeple
+Steeple of Christmas Chaos(Christmas 2018);Christmas 2018;5.18;Steeple
+Steeple of Evergreen Ascension(Christmas 2019);Christmas 2019;2.98;Steeple
+Steeple of Festive Factory Infiltration(Christmas 2019);Christmas 2019;4.23;Steeple
+Steeple of Joyous Voyages(Christmas 2019);Christmas 2019;4.93;Steeple
+Steeple of Nightmare Before Christmas(Christmas 2019);Christmas 2019;5.26;Steeple
+Steeple of Scrumptious Travels(Christmas 2020);Christmas 2020;3.67;Steeple
+Steeple of Winter Expeditions(Christmas 2020);Christmas 2020;4.08;Steeple
+Tower of Hot Chocolate Fury(Christmas 2020);Christmas 2020;4.25;Tower
+Steeple of Wrapped Suffering(Christmas 2020);Christmas 2020;5.76;Steeple
+Steeple of Wrathful Ornaments(Christmas 2023);Christmas 2023;2.37;Steeple
+Steeple of Crazy Maniac's Cabin(Christmas 2023);Christmas 2023;4.63;Steeple
+Steeple of Zesty Situations(Christmas 2023);Christmas 2023;5.73;Steeple
+Steeple of Triple Black Diamonds(Christmas 2023);Christmas 2023;6.07;Steeple
+Steeple of Seeking Asylum(Christmas 2024);Christmas 2024;4.86;Steeple
+Steeple of Scrumptious Souvenirs(Christmas 2024);Christmas 2024;5.7;Steeple
+Steeple of Psycho Eyes(Christmas 2024);Christmas 2024;6.28;Steeple
+Steeple of Sleep Eternally(Christmas 2025);Christmas 2025;2.94;Steeple
+Steeple of Castle Within Glass(Christmas 2025);Christmas 2025;3.88;Steeple
+Tower of Manifesting In Dreams(Christmas 2025);Christmas 2025;4.51;Tower
+Steeple of The Christmas Spirit(Christmas 2025);Christmas 2025;5.34;Steeple
+Shrimply Another Normal Tower, Amazingly(Christmas 2025);Christmas 2025;6.12;Mini Tower
+Steeple of Below Zero(Christmas 2025);Christmas 2025;7.66;Steeple
+Citadel of Festive Struggles(Christmas 2021);Christmas 2021;5.48;Citadel
+Steeple of Meaningless Decisions;Forgotten Ridge;1.22;Steeple
+Tower of Jolly Good Fun;Forgotten Ridge;1.65;Tower
+Steeple of Low Woe;Forgotten Ridge;2.78;Steeple
+Steeple of Pursuit;Forgotten Ridge;2.86;Steeple
+This Is Probably A Tower;Forgotten Ridge;3.61;Mini Tower
+Steeple of Uninstalling Roblox;Forgotten Ridge;3.74;Steeple
+Tower of Immense Ire;Forgotten Ridge;4.24;Tower
+Steeple of Wall Punching;Forgotten Ridge;4.57;Steeple
+Tower of Versatility;Forgotten Ridge;4.64;Tower
+Tower of Triangular Covering;Forgotten Ridge;5.0;Tower
+Steeple of Climbing;Forgotten Ridge;5.49;Steeple
+Steeple of Huge Pain;Forgotten Ridge;6.35;Steeple
+Tower of Increasing Stress;Forgotten Ridge;6.37;Tower
+Tower of Dangerous Expeditions;Forgotten Ridge;6.75;Tower
+Citadel of Weird Nostalgia;Forgotten Ridge;6.96;Citadel
+Steeple of Towering Pillars;Forgotten Ridge;7.65;Steeple
+Tower of Mind Breaking;Forgotten Ridge;8.36;Tower
+Steeple of Beginner's Journey;Garden of Eeshol;1.11;Steeple
+Steeple of Devil's Snare;Garden of Eeshol;1.54;Steeple
+Steeple of Infectious Foliage;Garden of Eeshol;2.32;Steeple
+Steeple of Overgrowth;Garden of Eeshol;2.67;Steeple
+Steeple of Nightfall;Garden of Eeshol;2.81;Steeple
+Steeple of Overgrown Ascension;Garden of Eeshol;3.16;Steeple
+Steeple of Greenhouse Placidity;Garden of Eeshol;3.7;Steeple
+Steeple of Feudal Foliage;Garden of Eeshol;3.8;Steeple
+Steeple of Lost In Quiescence;Garden of Eeshol;3.84;Steeple
+Citadel of Biotech Genesis;Garden of Eeshol;4.0;Citadel
+Steeple of Various Vivariums;Garden of Eeshol;4.01;Steeple
+Steeple of Flourishing Wastelands;Garden of Eeshol;5.61;Steeple
+Not Even A Flower;Garden of Eeshol;5.79;Mini Tower
+Tower of Perilous Antipode;Garden of Eeshol;6.0;Tower
+Steeple of Buoyant Automations;Garden of Eeshol;6.03;Steeple
+Steeple of Rising Molten Rocks(Halloween 2018);Halloween 2018;3.41;Steeple
+Steeple of Button Venturing(Halloween 2018);Halloween 2018;3.94;Steeple
+Steeple of Retina Pain(Halloween 2018);Halloween 2018;4.03;Steeple
+Steeple of Tricks and Treats(Halloween 2019);Halloween 2019;4.35;Steeple
+Steeple of Haunted Traversing(Halloween 2019);Halloween 2019;5.68;Steeple
+Steeple of Midnight Terrors(Halloween 2019);Halloween 2019;6.16;Steeple
+Steeple of Realm Crossing(Halloween 2020);Halloween 2020;2.98;Steeple
+Steeple of Midnight Fortress(Halloween 2020);Halloween 2020;4.81;Steeple
+Steeple of Pumpkin Panic(Halloween 2020);Halloween 2020;5.92;Steeple
+Steeple of Cosmic Terror(Halloween 2020);Halloween 2020;6.56;Steeple
+Citadel of Horrifying Phobias(Halloween 2020);Halloween 2020;7.42;Citadel
+Steeple of Headstone Evocation(Halloween 2022);Halloween 2022;2.46;Steeple
+Steeple of Forsaken Anguish(Halloween 2022);Halloween 2022;3.29;Steeple
+Steeple of Blighted Blazonry(Halloween 2022);Halloween 2022;4.5;Steeple
+Steeple of Treacherous Toxins(Halloween 2022);Halloween 2022;7.08;Steeple
+Steeple of Ghostly Mischief(Halloween 2023);Halloween 2023;1.9;Steeple
+Steeple of Dungeon Crawling(Halloween 2023);Halloween 2023;3.84;Steeple
+Steeple of Moonlit Heresy(Halloween 2023);Halloween 2023;6.42;Steeple
+Citadel of Treats and Tricks(Halloween 2023);Halloween 2023;7.09;Citadel
+Tower of Webbed Palace(Halloween 2025);Halloween 2025;3.75;Tower
+Steeple of Velvet Delirium(Halloween 2025);Halloween 2025;3.89;Steeple
+Steeple of Fear of Ghosts(Halloween 2025);Halloween 2025;4.2;Steeple
+Wasn't Really A Tower, Honestly(Halloween 2025);Halloween 2025;6.97;Mini Tower
+Tower of Trouble(Legacy 2024);Legacy Fortress;1.72;Tower
+Tower of Phone Snapping(Legacy 2024);Legacy Fortress;2.78;Tower
+Tower of Total Exhaustion(Legacy 2024);Legacy Fortress;4.28;Tower
+Tower of Unfortunate Possibilities(Legacy 2024);Legacy Fortress;4.8;Tower
+Tower of Gloom(Legacy 2024);Legacy Fortress;4.89;Tower
+Tower of Window Shattering(Legacy 2024);Legacy Fortress;5.92;Tower
+Tower of Tearing Up(Legacy 2024);Legacy Fortress;6.26;Tower
+Tower of Great Infamy(Legacy 2024);Legacy Fortress;6.78;Tower
+Tower of Mass Destruction(Legacy 2024);Legacy Fortress;7.11;Tower
+Tower of Spicy Torment(Legacy 2024);Legacy Fortress;7.59;Tower
+Tower of Confusion(Legacy 2024);Legacy Fortress;8.01;Tower
+Tower of Unending Bamboozles(Legacy 2024);Legacy Fortress;8.95;Tower
+Tower of Excessive Weirdness;Lost River;2.89;Tower
+Tower of Two Sided Troubles;Lost River;3.79;Tower
+Citadel of Inside Situations;Lost River;4.6;Citadel
+Tower of Losing Our Zeal;Lost River;4.86;Tower
+Tower of Diverging Layers;Lost River;5.37;Tower
+Tower of Odd Odyssey;Lost River;5.59;Tower
+Tower of Witchcraft and Wizardry;Lost River;6.74;Tower
+Tower of Compact Spaces;Lost River;6.98;Tower
+Tower of Tallying Every Mistake;Lost River;7.0;Tower
+Tower of Triple Jeopardy;Lost River;7.01;Tower
+Tower of Unsettling Heights;Lost River;8.19;Tower
+Possibly A Tower;Paradise Atoll;1.54;Mini Tower
+Steeple of Mystical Marine;Paradise Atoll;1.76;Steeple
+Steeple of Undersea Voyage;Paradise Atoll;2.74;Steeple
+Steeple of Waterfall;Paradise Atoll;3.24;Steeple
+Tower of Call It A Day;Paradise Atoll;3.59;Tower
+Steeple of Abyssal Upturn;Paradise Atoll;3.94;Steeple
+Steeple of Sunny Island Shenanigans;Paradise Atoll;4.03;Steeple
+Steeple of Aquatic Rallies;Paradise Atoll;4.34;Steeple
+Tower of High Power;Paradise Atoll;4.77;Tower
+Steeple of Hallucinatory Spectacles;Paradise Atoll;4.8;Steeple
+Steeple of Desolate Isles;Paradise Atoll;5.28;Steeple
+Tower of Cyclonic Isles;Paradise Atoll;5.76;Tower
+Steeple of Upright Cliffs;Paradise Atoll;5.78;Steeple
+Steeple of Cliffside Falls;Paradise Atoll;5.83;Steeple
+Tower of Traversing The Tropics;Paradise Atoll;6.06;Tower
+Steeple of Dusty Dunes;Paradise Atoll;6.32;Steeple
+Steeple of Underlying Breezes;Paradise Atoll;6.54;Steeple
+Tower of Modernistic Design Choices(Pit of Misery);Pit of Misery;1.84;Tower
+Tower of Xerically Infuriating Calamity(Pit of Misery);Pit of Misery;10.27;Tower
+Tower of Overthinking Life Choices(Pit of Misery);Pit of Misery;10.79;Tower
+Was A Tower(Pit of Misery);Pit of Misery;10.99;Mini Tower
+Tower of Vindictive Maneuvers(Pit of Misery);Pit of Misery;11.04;Tower
+Tower of Shunning Excursion(Pit of Misery);Pit of Misery;11.66;Tower
+Tower of Vacant Hindrances(Pit of Misery);Pit of Misery;12.0;Tower
+Tower of Water Melon(Pit of Misery);Pit of Misery;12.25;Tower
+Tower of The Roof's Pique(Pit of Misery);Pit of Misery;12.44;Tower
+Tower of Eternal Void(Pit of Misery);Pit of Misery;12.65;Tower
+Tower of Blind Fate(Pit of Misery);Pit of Misery;13.0;Tower
+Citadel of Infinite Void(Pit of Misery);Pit of Misery;13.12;Citadel
+Tower of Spiralling Fates(Pit of Misery);Pit of Misery;13.24;Tower
+Tower of Genesis;Purgatorio;1.0;Tower
 Tower of Motion Evolution;Purgatorio;1.46;Tower
 Tower of Buttons;Purgatorio;1.48;Tower
 Tower of Critical Damage;Purgatorio;1.93;Tower
-Purgatorio Tower Rush;Purgatorio;5.41;Tower Rush
+Tower of Boost Mayhem;Purgatorio;2.0;Tower
+Tower of Various Pressures;Purgatorio;2.24;Tower
+Tower of Kinetic Potential;Purgatorio;2.54;Tower
+Tower of No Strings Attached;Purgatorio;2.7;Tower
+Tower of Keys To Success;Purgatorio;3.0;Tower
+Tower Not Found;Purgatorio;3.11;Mini Tower
+Tower of Dancing All Night;Purgatorio;3.62;Tower
+Citadel of Victory;Purgatorio;3.95;Citadel
+Not Even A Tower;Ring 1;1.11;Mini Tower
+Tower of A Simple Time;Ring 1;1.25;Tower
+Tower of Anger;Ring 1;1.5;Tower
+Tower of Madness;Ring 1;2.12;Tower
+Tower of Noticeable Infuriation;Ring 1;2.8;Tower
+Tower of Hecc;Ring 1;3.3;Tower
+Tower of Killjoys;Ring 1;3.47;Tower
+Tower of Keyboard Yeeting;Ring 1;4.1;Tower
+Tower of Stress;Ring 1;4.88;Tower
+Tower of Screen Punching;Ring 1;5.2;Tower
+Tower of Rage;Ring 1;5.58;Tower
+Tower of Impossible Expectations;Ring 1;6.01;Tower
+Citadel of Laptop Splitting;Ring 1;6.5;Citadel
+Tower of True Skill;Ring 1;7.09;Tower
+Tower of Infinity Gauntlet;Ring 1;8.23;Tower
+Maybe A Tower;Ring 2;1.07;Mini Tower
+Tower of Phone Snapping;Ring 2;2.76;Tower
+Tower of Big Hole;Ring 2;3.4;Tower
+Tower of Overcoming Hatred;Ring 2;3.73;Tower
+Tower of Cold Hands;Ring 2;4.0;Tower
+Tower of Falling and Failing;Ring 2;5.61;Tower
+Tower of Traps;Ring 2;5.71;Tower
+Tower of Deep Darkness;Ring 2;5.8;Tower
+Tower of Shattered Dreams;Ring 2;5.84;Tower
+Tower of Table Flipping;Ring 2;6.44;Tower
+Tower of Eternal Suffering;Ring 2;7.5;Tower
+Citadel of Wacky Strategy;Ring 2;7.96;Citadel
+Tower of Difficulty Chart;Ring 2;8.03;Tower
+Tower of Funny Thoughts;Ring 3;1.7;Tower
+Tower of Inverted Colors;Ring 3;2.09;Tower
+Tower of Ancient Trickery;Ring 3;2.62;Tower
+Tower of Deep Sighing;Ring 3;2.83;Tower
+Tower of Fatness;Ring 3;3.54;Tower
+Tower of Winning Every Run;Ring 3;3.55;Tower
+Tower of Slight Inconvenience;Ring 3;4.01;Tower
+Tower of Wall Hugging;Ring 3;4.37;Tower
+Tower of Lotsa Damage;Ring 3;4.61;Tower
+Tower of Despair;Ring 3;5.29;Tower
+Citadel of Heights and Depths;Ring 3;6.13;Citadel
+Totally A Tower;Ring 3;6.99;Mini Tower
+Tower of Confusion;Ring 3;8.94;Tower
+Tower of Spiralling Heights;Ring 4;1.9;Tower
+Tower of Inception;Ring 4;10.87;Tower
+Tower of Getting Gnomed;Ring 4;2.84;Tower
+Tower of Terrible Mondays;Ring 4;3.6;Tower
+Tower of Elysium;Ring 4;3.92;Tower
+Tower of Linonophobia;Ring 4;4.5;Tower
+Tower of Leaning Ledges;Ring 4;4.7;Tower
+Will Be A Tower;Ring 4;5.01;Mini Tower
+Tower of Dust and Decay;Ring 4;5.22;Tower
+Tower of Holy Flip;Ring 4;6.45;Tower
+Citadel of Uneasiness;Ring 4;6.8;Citadel
+Tower of Oblivion;Ring 4;6.97;Tower
+Tower of Nonsensical Platforms;Ring 4;7.08;Tower
+Tower of Corrupted Nightmares;Ring 4;7.95;Tower
+Tower of Vivid Sections;Ring 4;8.72;Tower
+Tower of Frightening Nightmares;Ring 5;10.14;Tower
+Tower of Nice Views;Ring 5;2.85;Tower
+Tower of Trivial Resentment;Ring 5;3.99;Tower
+Likely A Tower;Ring 5;4.04;Mini Tower
+Tower of Rigid Success;Ring 5;4.36;Tower
+Tower of Downward Mobility;Ring 5;5.17;Tower
+Tower of Obvious Chaos;Ring 5;5.72;Tower
+Tower of Floral Fury;Ring 5;6.05;Tower
+Tower of Extraordinary Adventures;Ring 5;6.12;Tower
+Tower of Tokyo Heights;Ring 5;6.46;Tower
+Tower of Glitching and Healing;Ring 5;7.05;Tower
+Tower of Fractured Obstacles;Ring 5;7.31;Tower
+Citadel of Contrasting Regions;Ring 5;7.57;Citadel
+Tower of Icy Blizzards;Ring 5;8.47;Tower
+Tower of Impossible Movement;Ring 6;10.1;Tower
+Tower of Friendly Jumps;Ring 6;3.03;Tower
+Tower of Environmental Pain;Ring 6;4.4;Tower
+Tower of Radiant Realms;Ring 6;4.52;Tower
+Tower of Twisted Inquisition;Ring 6;5.45;Tower
+Tower of A Depressing Future;Ring 6;6.12;Tower
+Tower of Intense Solar Chaos;Ring 6;6.3;Tower
+Tower of Dispersed Rooms;Ring 6;6.68;Tower
+Tower of Flustering Sections;Ring 6;6.71;Tower
+Fortunately Not A Tower;Ring 6;6.76;Mini Tower
+Tower of Niflheim;Ring 6;7.1;Tower
+Citadel of Scythe Recognition;Ring 6;7.34;Citadel
+Tower of Strategic Mechanics;Ring 6;9.46;Tower
+Tower of Elongated Runs;Ring 7;11.85;Tower
+Tower of Rushed Building;Ring 7;4.58;Tower
+Far From A Surprising Tower;Ring 7;4.79;Mini Tower
+Tower of Collective Collaboration;Ring 7;5.46;Tower
+Tower of Feeling Lazy;Ring 7;5.6;Tower
+Tower of Distorted Aerodynamics;Ring 7;5.85;Tower
+Tower of Orientating Oscillating Opinions;Ring 7;6.29;Tower
+Tower of Never Giving Up, Ever;Ring 7;6.54;Tower
+Tower of Never Ending Dizziness;Ring 7;7.18;Tower
+Tower of Ultraviolet;Ring 7;7.55;Tower
+Citadel of True Exasperation;Ring 7;7.66;Citadel
+Tower of Yearning Victory;Ring 7;7.67;Tower
+Tower of Extreme Hell;Ring 7;8.17;Tower
+Tower of Terrifying Beauty;Ring 7;9.43;Tower
+Tower of Generation Failure;Ring 8;11.17;Tower
+Tower of Somewhat Simple Scaling;Ring 8;2.38;Tower
+Tower of Needing Basic Aptitude;Ring 8;3.9;Tower
+Tower of Voluminous Framework;Ring 8;5.25;Tower
+Tower of Vibrant Adventures;Ring 8;5.6;Tower
+Tower of Aamos' Anger;Ring 8;5.75;Tower
+Citadel of Constant Heart Stopping;Ring 8;6.49;Citadel
+Tower of Uneasy Scaling;Ring 8;6.66;Tower
+Tower of Insanely Innovative Ideas;Ring 8;6.99;Tower
+Tower of Verdant Entropy;Ring 8;7.56;Tower
+Tower of Mean Tasks;Ring 8;7.69;Tower
+Tower of Suffering Outside;Ring 8;9.53;Tower
+Tower of Externalizing Insanity;Ring 8;9.95;Tower
+Tower of Journey's End;Ring 9;10.5;Tower
+Tower of Nervous Sweating;Ring 9;10.6;Tower
+Tower of Augmented Misery;Ring 9;11.0;Tower
+Tower of Champion's Road;Ring 9;11.71;Tower
+Tower of Cruel Punishment;Ring 9;11.99;Tower
+Tower of Great Overcomings;Ring 9;6.49;Tower
+Tower of Beat Block Berserk;Ring 9;7.03;Tower
+Tower of Questionable Trials;Ring 9;7.23;Tower
+Citadel of Lethargy;Ring 9;7.68;Citadel
+Tower of Pastel Pillars;Ring 9;7.87;Tower
+Tower of High Adrenaline;Ring 9;8.14;Tower
+Tower of Bent Trauma;Ring 9;8.21;Tower
+Tower of Curved Ascent;Ring 9;8.46;Tower
+Tower of Frightening and Confusing Trials;Ring 9;9.05;Tower
+Tower of Bloodthirsty Kenos;Ring 9;9.08;Tower
+Steeple of Resort In Stasis;Silent Abyss;4.71;Steeple
+Steeple of Ruinous Abate;Silent Abyss;4.87;Steeple
+Tower of Ancestral Interference;Silent Abyss;4.99;Tower
+Steeple of Descendance;Silent Abyss;5.15;Steeple
+Tower of There Is No Tower;Silent Abyss;5.42;Tower
+Steeple of Guiding Lights;Silent Abyss;5.66;Steeple
+Steeple of Xenial Abyss;Silent Abyss;5.9;Steeple
+Steeple of Wicked Grotto;Silent Abyss;6.02;Steeple
+Tower of Shallow Waters;Silent Abyss;6.64;Tower
+Steeple of Involuntary Isolation;Silent Abyss;6.71;Steeple
+Tower of Tenebrous Depths;Silent Abyss;6.9;Tower
+Steeple of Midnight Acropolis;Silent Abyss;7.34;Steeple
+Steeple of Malignant Blight;Silent Abyss;7.45;Steeple
+Steeple of Spring Jubilation(Spring 2019);Spring 2019;2.76;Steeple
+Steeple of Chaotic Hunting(Spring 2019);Spring 2019;4.06;Steeple
+Steeple of Egg Searches(Spring 2019);Spring 2019;4.89;Steeple
+Steeple of Zip Zap Pop!;Steelspire Horizon;1.43;Steeple
+Steeple of Golf Course;Steelspire Horizon;1.86;Steeple
+Tower of Sunshower Lambent;Steelspire Horizon;2.55;Tower
+Tower of Quantum Rhythm;Steelspire Horizon;2.72;Tower
+Tower of Steel and Thunder;Steelspire Horizon;2.85;Tower
+Tower of Fly High;Steelspire Horizon;3.1;Tower
+Tower of Calm Before The Storm;Steelspire Horizon;3.77;Tower
+Tower of Ten Floors Challenge;Steelspire Horizon;3.85;Tower
+Steeple of Bad Cable Management;Steelspire Horizon;4.65;Steeple
+Steeple of Dungeon Runner;Steelspire Horizon;5.09;Steeple
+Tower of Weird Energy;Steelspire Horizon;5.12;Tower
+Steeple of Sunken Kingdoms;Steelspire Horizon;5.79;Steeple
+Tower of Fixture Park;Steelspire Horizon;6.3;Tower
+Tower of Nerves of Steel;Steelspire Horizon;6.66;Tower
+Citadel of Treachery;Steelspire Horizon;6.95;Citadel
+Tower of Geometric Kinetics;Steelspire Horizon;7.33;Tower
+Tower of Speeding Right Through;Steelspire Horizon;8.5;Tower
+Tower of Annoyingly Simple Trials(Classic);Summit of Memories;1.21;Tower
+Tower of Anger(Classic);Summit of Memories;1.5;Tower
+Tower of Peaceful Happiness and Tranquility(Classic);Summit of Memories;1.5;Tower
+Tower of Funny Thoughts(Classic);Summit of Memories;1.68;Tower
+Tower of Madness(Classic);Summit of Memories;2.01;Tower
+Tower of Atlantic Depths(Classic);Summit of Memories;2.47;Tower
+Tower of Deep Sighing(Classic);Summit of Memories;2.52;Tower
+Tower of Client Object Frenzy(Classic);Summit of Memories;2.77;Tower
+Tower of Hands Sweating(Classic);Summit of Memories;3.28;Tower
+Tower of Overcoming Hatred(Classic);Summit of Memories;3.88;Tower
+Tower of Mirrored Hecc(Classic);Summit of Memories;3.93;Tower
+Tower of Linonophobia(Classic);Summit of Memories;4.24;Tower
+Tower of Terrible Mondays(Classic);Summit of Memories;4.25;Tower
+Tower of Leaning Ledges(Classic);Summit of Memories;4.57;Tower
+Tower of Stress(Classic);Summit of Memories;4.88;Tower
+Tower of Rage(Classic);Summit of Memories;5.58;Tower
+Tower of Traps(Classic);Summit of Memories;5.58;Tower
+Tower of Absolute Vexation(Classic);Summit of Memories;5.71;Tower
+Is This A Tower?(Classic);Summit of Memories;5.75;Mini Tower
+Steeple of Dusty Dunes(Classic);Summit of Memories;6.19;Steeple
+Citadel of Green Stuff(Classic);Summit of Memories;6.44;Citadel
+Citadel of Weird Nostalgia(Classic);Summit of Memories;6.77;Citadel
+Thanos Tower(Classic);Summit of Memories;8.05;Tower
+Tower of Difficulty Chart(Classic);Summit of Memories;8.15;Tower
+Tower of Autumn Harvest(Thanksgiving 2019);Thanksgiving 2019;5.67;Tower
+Tower of Lethean Recollection;The Starlit Archives;4.13;Tower
+Tower of You're Late For Work;The Starlit Archives;4.73;Tower
+Tower of Pursuit Led Astray;The Starlit Archives;4.96;Tower
+Steeple of After-Life Detention;The Starlit Archives;5.26;Steeple
+Steeple of Balloon Commune;The Starlit Archives;5.63;Steeple
+Steeple of Two Minute Noodles;The Starlit Archives;5.89;Steeple
+Steeple of The Manufactured Monstrosity;The Starlit Archives;5.92;Steeple
+Tower of The Umbrella, The User;The Starlit Archives;6.32;Tower
+Tower of Infiltrated Ruins;The Starlit Archives;6.36;Tower
+Steeple of Itsy Bitsy;The Starlit Archives;6.4;Steeple
+Tower of A Disillusioned Existence;The Starlit Archives;6.57;Tower
+Tower of Warranted Retribution;The Starlit Archives;6.75;Tower
+Tower of Fleeing From Everything Ending;The Starlit Archives;7.32;Tower
+Tower of House Without Home;The Starlit Archives;7.35;Tower
+Steeple of Forlorn Blizzard;The Starlit Archives;7.64;Steeple
+Steeple of Cheesy Vengeance;The Starlit Archives;7.69;Steeple
+Tower of Placid Travels(Monthly);Time-Lost Clockwork;1.97;Tower
+Tower of No Distress(Monthly);Time-Lost Clockwork;2.71;Tower
+Tower of Intergalactic Voyages(Monthly);Time-Lost Clockwork;2.86;Tower
+Tower of Medium Demon(Monthly);Time-Lost Clockwork;3.43;Tower
+Steeple of Jungle Thrill(Monthly);Time-Lost Clockwork;3.83;Steeple
+Tower of Numb Hands(Monthly);Time-Lost Clockwork;4.15;Tower
+Tower of Nebulous Attitudes(Monthly);Time-Lost Clockwork;4.18;Tower
+Steeple of Pool Noodle(Monthly);Time-Lost Clockwork;4.21;Steeple
+Tower of Wacky Progression(Monthly);Time-Lost Clockwork;4.72;Tower
+Tower of Close Cut Quandaries(Monthly);Time-Lost Clockwork;4.81;Tower
+Tower of Fair and Nice Serenity(Monthly);Time-Lost Clockwork;4.83;Tower
+Tower of Menacing Stairway(Monthly);Time-Lost Clockwork;5.25;Tower
+Tower of Ascension and Descension(Monthly);Time-Lost Clockwork;5.38;Tower
+Tower of Fading Misery(Monthly);Time-Lost Clockwork;5.74;Tower
+This Is A Tower;Time-Lost Clockwork;6.2;Mini Tower
+Tower of Onerous Traversing(Monthly);Time-Lost Clockwork;6.32;Tower
+Tower of Violet Contradiction(Monthly);Time-Lost Clockwork;6.61;Tower
+Tower of Fast Acceleration(Monthly);Time-Lost Clockwork;6.78;Tower
+Tower of Fun House Frenzy(Monthly);Time-Lost Clockwork;7.29;Tower
+Tower of Slowly Escalating Tension(Monthly);Time-Lost Clockwork;7.31;Tower
+Tower of Freezing Cold Dreams(Monthly);Time-Lost Clockwork;7.55;Tower
+Tower of Is Steeple Crossing Required?(Monthly);Time-Lost Clockwork;7.64;Tower
+Tower of Slipping Through Reality(Monthly);Time-Lost Clockwork;8.86;Tower
+Tower of Stunning Inconsistent Obstacles(Monthly);Time-Lost Clockwork;14.32;Tower
+Tower of Potency and Greatness(Monthly);Time-Lost Clockwork;14.21;Tower
+Tower of Frame Carvings(Monthly);Time-Lost Plain;1.49;Tower
+Tower of Coolio Sliding(Monthly);Time-Lost Plain;1.82;Tower
+Tower of Grass(Monthly);Time-Lost Plain;2.01;Tower
+Steeple of Questions(Monthly);Time-Lost Plain;2.35;Steeple
+Tower of Optimistic Experiences(Monthly);Time-Lost Plain;2.71;Tower
+Tower of Pushing Objects(Monthly);Time-Lost Plain;2.84;Tower
+Steeple of Adventurous Explorations(Monthly);Time-Lost Plain;2.86;Steeple
+Tower of Peaceful Vibes(Monthly);Time-Lost Plain;2.94;Tower
+Tower of Many Realms(Monthly);Time-Lost Plain;3.46;Tower
+Tower of Mild Irritation(Monthly);Time-Lost Plain;3.54;Tower
+Tower of Spaceship Finding(Monthly);Time-Lost Plain;3.61;Tower
+Tower of Outer Space Exploration(Monthly);Time-Lost Plain;3.81;Tower
+Tower of Subtle Graciousness(Monthly);Time-Lost Plain;4.56;Tower
+Tower of Various Routes(Monthly);Time-Lost Plain;4.8;Tower
+Citadel of Monochrome and Vibrance(Monthly);Time-Lost Plain;4.91;Citadel
+Steeple of Nefarious Essence(Monthly);Time-Lost Plain;5.46;Steeple
+Tower of A Splitting Headache(Monthly);Time-Lost Plain;5.67;Tower
+Is This A Tower?;Time-Lost Plain;5.81;Mini Tower
+Tower of Unfaithful Great Heights(Monthly);Time-Lost Plain;6.71;Tower
+Tower of Disjointed Worlds(Monthly);Time-Lost Plain;6.79;Tower
+Tower of Celestial Darkness(Monthly);Time-Lost Plain;6.89;Tower
+Tower of Truly Extensive Pillars(Monthly);Time-Lost Plain;6.93;Tower
+Tower of Annoying Paths(Monthly);Time-Lost Plain;7.08;Tower
+Tower of Stained, Brutal Calamity(Monthly);Time-Lost Plain;6.36;Tower
+Tower of Light Hues(Monthly);Time-Lost Sands;1.79;Tower
+Tower of Little Frustration(Monthly);Time-Lost Sands;1.87;Tower
+Tower of Very Simple Downfall(Monthly);Time-Lost Sands;2.39;Tower
+Tower of Odd Algorithm(Monthly);Time-Lost Sands;2.53;Tower
+Tower of Standard Newcomings(Monthly);Time-Lost Sands;2.77;Tower
+Tower of Camels of The Sky(Monthly);Time-Lost Sands;2.86;Tower
+Steeple of Oversized Picking(Monthly);Time-Lost Sands;3.38;Steeple
+Tower of Savory Citrus Platforming(Monthly);Time-Lost Sands;3.48;Tower
+Steeple of Garden Hose(Monthly);Time-Lost Sands;3.75;Steeple
+Tower of Convoluted Expanses(Monthly);Time-Lost Sands;4.08;Tower
+Tower of Pleasant Descents(Monthly);Time-Lost Sands;4.61;Tower
+Tower of Basement Antics(Monthly);Time-Lost Sands;4.85;Tower
+Tower of Irregular Tranquility(Monthly);Time-Lost Sands;5.28;Tower
+Tower of Fallen World(Monthly);Time-Lost Sands;5.39;Tower
+Tower of Prismatic Wonders(Monthly);Time-Lost Sands;5.87;Tower
+Steeple of The Deep Well(Monthly);Time-Lost Sands;6.05;Steeple
+Tower of Stalactite Boundaries(Monthly);Time-Lost Sands;6.57;Tower
+Tower of Nothing Much(Monthly);Time-Lost Sands;6.85;Tower
+Tower of Frozen Uplift(Monthly);Time-Lost Sands;6.87;Tower
+Tower of Scaling The Pillar(Monthly);Time-Lost Sands;6.96;Tower
+Citadel of Squiggly Wiggly(Monthly);Time-Lost Sands;7.03;Citadel
+Tower of Gloomy Depths(Monthly);Time-Lost Sands;7.1;Tower
+Tower of Nefarious Endeavors(Monthly);Time-Lost Sands;7.68;Tower
+Wow! It's A Tower!;Time-Lost Sands;7.72;Mini Tower
+Tower of Kyodaina Reizouko(Monthly);Time-Lost Sands;7.77;Tower
+Tower of Lavish Embellishment(Monthly);Time-Lost Sands;7.79;Tower
+Tower of The Mind Electric(Monthly);Time-Lost Sands;7.83;Tower
+Tower of Demonic Inspiration(Monthly);Time-Lost Sands;7.84;Tower
+Tower of Quaint Activations(Monthly);Time-Lost Sands;8.47;Tower
+Tower of Challenging Obstacle Anarchy(Monthly);Time-Lost Tempest;11.82;Tower
+Steeple of Espalier(Monthly);Time-Lost Tempest;2.39;Steeple
+Steeple of Vivid Island Venturing(Monthly);Time-Lost Tempest;3.29;Steeple
+Tower of Jubilant Exercises(Monthly);Time-Lost Tempest;3.36;Tower
+Tower of Advanced Electronics(Monthly);Time-Lost Tempest;3.52;Tower
+Tower of Easing Exultant Expeditions(Monthly);Time-Lost Tempest;3.96;Tower
+Tower of An Intricate Rise(Monthly);Time-Lost Tempest;4.68;Tower
+Tower of Revolving Wack(Monthly);Time-Lost Tempest;4.82;Tower
+Tower of Vast Horizons(Monthly);Time-Lost Tempest;4.94;Tower
+Tower of Interstellar Dreams(Monthly);Time-Lost Tempest;4.95;Tower
+Steeple of Bad Lands Chugs(Monthly);Time-Lost Tempest;5.16;Steeple
+Tower of Heavy Damage(Monthly);Time-Lost Tempest;5.34;Tower
+Tower of Vela Pulsar(Monthly);Time-Lost Tempest;5.49;Tower
+Steeple of Synthetic Celestials(Monthly);Time-Lost Tempest;5.58;Steeple
+Do Dat Look Like A Tower;Time-Lost Tempest;5.83;Mini Tower
+Steeple of Rising Temperatures(Monthly);Time-Lost Tempest;5.88;Steeple
+Tower of Vibing(Monthly);Time-Lost Tempest;6.04;Tower
+Tower of Diving Into Madness(Monthly);Time-Lost Tempest;6.33;Tower
+Tower of Pure Exasperation(Monthly);Time-Lost Tempest;6.49;Tower
+Tower of Gates To Infinity(Monthly);Time-Lost Tempest;6.61;Tower
+Tower of Concealed Visions(Monthly);Time-Lost Tempest;6.94;Tower
+Citadel of Malice(Monthly);Time-Lost Tempest;6.94;Citadel
+Tower of Taking a Seat(Monthly);Time-Lost Tempest;6.97;Tower
+Tower of Celestial Luminescence(Monthly);Time-Lost Tempest;7.18;Tower
+Tower of Insanely Chaotic Creations(Monthly);Time-Lost Tempest;7.45;Tower
+Tower of The Foreboding Abyss(Monthly);Time-Lost Tempest;7.51;Tower
+Tower of Orange World(Monthly);Time-Lost Tempest;7.56;Tower
+Tower of Quantification(Monthly);Time-Lost Tempest;7.64;Tower
+Tower of Luminescent Midnight(Monthly);Time-Lost Tempest;7.88;Tower
+Tower of Boreal Disarray(Monthly);Time-Lost Tempest;8.51;Tower
+Tower of Zero Disturbances;Zone 1;1.15;Tower
+Tower of Peaceful Happiness and Tranquility;Zone 1;1.55;Tower
+Tower of Atlantic Depths;Zone 1;2.65;Tower
+Tower of Peace;Zone 1;3.26;Tower
+Tower of Hands Sweating;Zone 1;3.48;Tower
+Tower of Mirrored Hecc;Zone 1;3.91;Tower
+Tower of Contractual Obligations;Zone 1;4.46;Tower
+Tower of Yearning Success;Zone 1;4.92;Tower
+Tower of Absolute Vexation;Zone 1;5.21;Tower
+Somewhat A Tower;Zone 1;5.53;Mini Tower
+Tower of Wanting Extra Levels;Zone 1;5.91;Tower
+Tower of Ultimately Terrifying;Zone 1;6.58;Tower
+Tower of Extreme Dystopia;Zone 1;7.12;Tower
+Tower of Really Nasty Ideas;Zone 1;7.19;Tower
+Citadel of Peril;Zone 1;7.95;Citadel
+Tower of Zespluz;Zone 1;7.97;Tower
+Tower of Thinning Layers;Zone 1;8.48;Tower
+Tower of Complexity and Volatility;Zone 10;10.15;Tower
+Tower of Raging Tempest;Zone 10;11.64;Tower
+Tower of Clandestine Zones;Zone 10;5.05;Tower
+Tower of Resonant Landscapes;Zone 10;5.32;Tower
+Tower of Interstellar Terrarium;Zone 10;5.63;Tower
+Tower of Valiant Verges;Zone 10;5.95;Tower
+Tower of Expecting The Unexpected;Zone 10;6.79;Tower
+Tower of Mach Nine;Zone 10;6.99;Tower
+Tower of One Two Three Four;Zone 10;7.12;Tower
+Tower of The Despondent Fortress;Zone 10;7.24;Tower
+Tower of Prismatic Instability;Zone 10;7.52;Tower
+Tower of Power Laws;Zone 10;7.86;Tower
+Citadel of Overcoming The World's Imperfections;Zone 10;7.99;Citadel
+Tower of Rain on My World;Zone 10;8.88;Tower
+Tower of Tee Hee Time;Zone 10;8.92;Tower
+Tower of Blast Power;Zone 10;9.6;Tower
+Tower of Rainforest Ascension;Zone 2;2.0;Tower
+Tower of Venomous Resonance;Zone 2;2.68;Tower
+Tower of Slanted Anticipation;Zone 2;2.98;Tower
+Tower of Ground Level Ascension;Zone 2;3.57;Tower
+Tower of Troublesome Adventures;Zone 2;4.05;Tower
+Tower of Unearthed Discoveries;Zone 2;4.21;Tower
+Tower of Dreams and Caverns;Zone 2;4.91;Tower
+Tower of Pleasant Fantasies;Zone 2;5.62;Tower
+Tower of Slipping and Sliding;Zone 2;5.74;Tower
+Citadel of Green Stuff;Zone 2;6.39;Citadel
+Tower of Extraterrestrial Enchantment;Zone 2;6.49;Tower
+Tower of Arcanium Zenturing;Zone 2;6.76;Tower
+Tower of Triangular Terror;Zone 2;6.98;Tower
+Tower of Great Displeasure;Zone 2;7.17;Tower
+Tower of Chaotic Moments;Zone 2;7.25;Tower
+Tower of Double Trouble;Zone 2;8.0;Tower
+Tower of Six Feet Under;Zone 3;1.05;Tower
+Tower of Overestimating Difficulty;Zone 3;1.99;Tower
+Tower of Broken Bricks;Zone 3;2.07;Tower
+Tower of Client Object Frenzy;Zone 3;2.87;Tower
+Tower of Cracked, Crushed Cubes;Zone 3;3.58;Tower
+Tower of Xanthophobia;Zone 3;3.81;Tower
+Tower of Dimensional Hopping;Zone 3;4.38;Tower
+Tower of Mild Agitation;Zone 3;4.59;Tower
+Tower of Cogs and Steam;Zone 3;4.66;Tower
+Citadel of Tricky Situations;Zone 3;4.98;Citadel
+Tower of Requiring Critical Help;Zone 3;4.98;Tower
+Tower of Menacing Creations;Zone 3;5.56;Tower
+Tower of Quirky Contraptions;Zone 3;6.18;Tower
+Tower of Infuriating Obstacles;Zone 3;6.32;Tower
+Tower of Cruel and Unusual Punishment;Zone 3;6.46;Tower
+Tower of Hopeless Hell;Zone 3;9.36;Tower
+Tower of Fairly Simple Challenges;Zone 4;1.58;Tower
+Tower of Aquatic Contemplation;Zone 4;2.95;Tower
+Tower of Fun and Simple Trials;Zone 4;3.29;Tower
+Tower of Up Is Down;Zone 4;3.56;Tower
+Tower of Elevator Travelling;Zone 4;4.51;Tower
+Tower of Wicked Wedges;Zone 4;4.69;Tower
+Tower of False Elysium;Zone 4;5.0;Tower
+Tower of Pure Chroma;Zone 4;5.82;Tower
+Tower of Mechanically Induced Mayhem;Zone 4;6.02;Tower
+Tower of Shifting Slopes;Zone 4;6.8;Tower
+Tower of Dance Dance Destruction;Zone 4;7.13;Tower
+Tower of Funky Grooves;Zone 4;7.29;Tower
+Citadel of Quadrilaterals;Zone 4;7.85;Citadel
+Tower of Tornado Vehemence;Zone 4;7.98;Tower
+Tower of Inevitable Failure;Zone 4;8.45;Tower
+Tower of Astronomically Aimless Annoyances;Zone 4;9.25;Tower
+Tower of Alien Radiance;Zone 5;10.33;Tower
+Tower of Sovereign Traveling;Zone 5;3.4;Tower
+Tower of Super Stupid Security Systems;Zone 5;3.91;Tower
+Tower of Fractal Volution;Zone 5;4.52;Tower
+Tower of Bright Serenity;Zone 5;4.75;Tower
+Tower of Stairs To Spare;Zone 5;5.31;Tower
+Tower of Unhealthy Escalation;Zone 5;5.99;Tower
+Tower of Heiwana Kaze;Zone 5;6.33;Tower
+Tower of Horrifying Experiences;Zone 5;6.33;Tower
+Tower of Guided Trials;Zone 5;6.52;Tower
+Citadel of Corporate Enterprise;Zone 5;6.79;Citadel
+Tower of Anticlimactic Outcomes;Zone 5;6.96;Tower
+Tower of Brutal and Bizarre Torment;Zone 5;7.61;Tower
+Tower of Zany Architecture;Zone 5;7.94;Tower
+Tower of Polychromatic Zero;Zone 5;8.77;Tower
+Tower of Micro Management;Zone 6;10.33;Tower
+Tower of Foreign Domains;Zone 6;3.64;Tower
+Tower of Rock Climbing;Zone 6;4.67;Tower
+Tower of Conflicting Frontiers;Zone 6;5.19;Tower
+Tower of Break It, Buy It;Zone 6;5.38;Tower
+Tower of Angled Scenery;Zone 6;5.54;Tower
+Tower of Hefty Magnitude;Zone 6;5.88;Tower
+Citadel of Twists and Weirdness;Zone 6;6.06;Citadel
+Tower of Hazardous Laddering;Zone 6;6.25;Tower
+Tower of Watts;Zone 6;6.4;Tower
+Tower of Astral Fusion;Zone 6;7.02;Tower
+Tower of Massive Overheating;Zone 6;7.42;Tower
+Tower of Brief Challenges;Zone 6;7.56;Tower
+Tower of The Dripping Amalgam;Zone 6;9.55;Tower
+Tower of Fractured Memories;Zone 7;10.0;Tower
+Tower of Uncanny Agony;Zone 7;10.76;Tower
+Tower of Jazz;Zone 7;2.75;Tower
+Tower of Rough Waters;Zone 7;3.23;Tower
+Tower of Sweet Victory;Zone 7;3.72;Tower
+Tower of Bygone Relic;Zone 7;4.49;Tower
+Tower of Destructive Fever;Zone 7;4.72;Tower
+Tower of Growing Madness;Zone 7;5.07;Tower
+Tower of Cylindrical Extensions;Zone 7;5.61;Tower
+Tower of White Space;Zone 7;5.88;Tower
+Tower of Yore;Zone 7;6.27;Tower
+Tower of Cone Mesh Climbing;Zone 7;6.48;Tower
+Tower of Swift and Precise Sections;Zone 7;6.78;Tower
+Tower of Uncontrollable Ire;Zone 7;7.71;Tower
+Citadel of A Cruel Tale;Zone 7;7.77;Citadel
+Tower of Descent Into Exile;Zone 8;11.36;Tower
+Tower of Melons In Time;Zone 8;3.76;Tower
+Tower of Cosmic Tides;Zone 8;3.93;Tower
+Tower of A Tetromino Disaster;Zone 8;4.78;Tower
+Tower of X Madness;Zone 8;4.96;Tower
+Tower of Galactic Voyage;Zone 8;5.18;Tower
+Tower of Flame Restoration;Zone 8;5.96;Tower
+Tower of One Nine;Zone 8;6.33;Tower
+Tower of Never Ending Fun;Zone 8;6.65;Tower
+Tower of Manic Lows;Zone 8;6.78;Tower
+Tower of Overbearing Vertigo;Zone 8;7.04;Tower
+Citadel of Pyramid Escapades;Zone 8;7.07;Citadel
+Tower of Time and Space Manipulation;Zone 8;7.38;Tower
+Tower of No Return;Zone 8;7.73;Tower
+Tower of Rough Endoplasmic Reticulum;Zone 8;8.89;Tower
+Tower of Astral Eclipse;Zone 8;9.0;Tower
+Tower of Wildly Wacky Wonders;Zone 9;10.66;Tower
+Tower of Empty Meaningless Patterns;Zone 9;11.42;Tower
+Tower of Arrantly Bodeful Cavern Depths;Zone 9;4.95;Tower
+Tower of Dusk To Dawn;Zone 9;5.14;Tower
+Tower of Latest Sensation;Zone 9;5.27;Tower
+Tower of Bonus Level;Zone 9;5.68;Tower
+Tower of Sugar Rush Deluxe;Zone 9;6.01;Tower
+Tower of Nothing New;Zone 9;6.73;Tower
+Tower of Furious Chicken Brawl;Zone 9;6.86;Tower
+Tower of Falling Up;Zone 9;6.93;Tower
+Tower of Eye Candy;Zone 9;7.01;Tower
+Tower of Big Blocky Beefy Buttons;Zone 9;7.7;Tower
+Tower of Minus Facility;Zone 9;7.75;Tower
+Citadel of Increasing Claustrophobia;Zone 9;7.83;Citadel
+Tower of Voyaging Into The Earth;Zone 9;7.92;Tower
+Tower of Hollow Reformations;Zone 9;8.7;Tower
+Tower of Panelling Barricades;Zone 9;9.16;Tower
 Pit of Misery Tower Rush;Pit of Misery;14.99;Tower Rush
+Purgatorio Tower Rush;Purgatorio;5.41;Tower Rush
+Garden of Eeshol Tower Rush;Garden of Eeshol;6.62;Tower Rush
+Ring 3 Tower Rush;Ring 3;6.89;Tower Rush
+Rings 1-4 Mini Tower Rush;Ring 5;6.99;Tower Rush
+Paradise Atoll Tower Rush;Paradise Atoll;7.09;Tower Rush
+Zone 3 Tower Rush;Zone 3;7.16;Tower Rush
+Arcane Area Tower Rush;Arcane Area;7.41;Tower Rush
+Ring 1 Tower Rush;Ring 1;7.83;Tower Rush
+Lost River Tower Rush;Lost River;7.85;Tower Rush
+Legacy Fortress Tower Rush;Legacy Fortress;7.95;Tower Rush
+Summit of Memories Tower Rush;Summit of Memories;8.02;Tower Rush
+Zone 7 Tower Rush;Zone 7;8.06;Tower Rush
+Ring 4 Tower Rush;Ring 4;8.12;Tower Rush
+Silent Abyss Tower Rush;Silent Abyss;8.15;Tower Rush
+Zone 5 Tower Rush;Zone 5;8.21;Tower Rush
+Zone 6 Tower Rush;Zone 6;8.23;Tower Rush
+Ring 9 Tower Rush;Ring 9;8.28;Tower Rush
+Forgotten Ridge Tower Rush;Forgotten Ridge;8.35;Tower Rush
+Ring 6 Tower Rush;Ring 6;8.45;Tower Rush
+Steelspire Horizon Tower Rush;Steelspire Horizon;8.57;Tower Rush
+Ring 7 Tower Rush;Ring 7;8.78;Tower Rush
+Zone 2 Tower Rush;Zone 2;8.84;Tower Rush
+Ashen Towerworks Tower Rush;Ashen Towerworks;8.94;Tower Rush
+Zone 8 Tower Rush;Zone 8;8.96;Tower Rush
+Time-Lost Plain Tower Rush;Time-Lost Plain;8.97;Tower Rush
+Ring 2 Tower Rush;Ring 2;8.98;Tower Rush
+Ring 8 Tower Rush;Ring 8;9.05;Tower Rush
+Zone 4 Tower Rush;Zone 4;9.06;Tower Rush
+Ring 5 Tower Rush;Ring 5;9.07;Tower Rush
+Time-Lost Clockwork Tower Rush;Time-Lost Clockwork;9.53;Tower Rush
+The Starlit Archives Tower Rush;The Starlit Archives;9.77;Tower Rush
+Zone 9 Tower Rush;Zone 9;9.89;Tower Rush
+Zone 1 Tower Rush;Zone 1;10.16;Tower Rush
+Time-Lost Sands Tower Rush;Time-Lost Sands;10.30;Tower Rush
+Time-Lost Tempest Tower Rush;Time-Lost Tempest;10.36;Tower Rush
+Zone 10 Tower Rush;Zone 10;10.46;Tower Rush

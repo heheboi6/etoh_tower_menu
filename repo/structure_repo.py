@@ -17,3 +17,8 @@ class StructureRepo(BaseRepo):
             if structure.get_acronym() == acronym:
                 return structure
         raise StructureNotFoundException("The structure with this acronym was not found!")
+    def find_roulette_structure_by_name(self, name : str):
+        for structure in self.__structure_list:
+            if structure.get_name() == name:
+                return structure
+        return None

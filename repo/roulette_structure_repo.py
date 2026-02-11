@@ -12,8 +12,8 @@ class RouletteStructureRepo(BaseRepo):
         for roulette_structure in self.__roulette_structure_list:
             string += str(roulette_structure) + '\n'
         return string
-    def find_roulette_structure_by_acronym(self, acronym : str) -> RouletteStructure:
+    def find_roulette_structure_by_acronym(self, acronym : str):
         for roulette_structure in self.__roulette_structure_list:
             if roulette_structure.get_acronym() == acronym:
                 return roulette_structure
-        raise StructureNotFoundException("The structure with this acronym does not exist in the roulette!")
+        return None

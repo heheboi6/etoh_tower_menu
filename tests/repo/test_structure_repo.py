@@ -33,5 +33,8 @@ class TestStructureRepo(unittest.TestCase):
         self.assertEqual(self.__structure_repo.search_by_acronym("CoGS"),Structure("Citadel of Green Stuff","Zone 2",6.39,"Citadel"))
         self.assertEqual(self.__structure_repo.search_by_acronym("ITAT"),Structure("Is This A Tower?","Time-Lost Plain",5.81,"Mini Tower"))
         self.assertRaises(StructureNotFoundException,self.__structure_repo.search_by_acronym,"ToZZ")
+    def test_find_roulette_structure_by_name(self):
+        self.assertEqual(self.__structure_repo.find_roulette_structure_by_name("Tower of Infinity Gauntlet").get_area(),"Ring 1")
+        self.assertEqual(self.__structure_repo.find_roulette_structure_by_name("Tower of Anger"),None)
 if __name__ == '__main__':
     unittest.main()

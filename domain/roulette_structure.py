@@ -13,14 +13,14 @@ class RouletteStructure(Structure):
     def __str__(self):
         str_return = super().__str__()
         if self.__eliminated:
-            str_return += ", you have beaten this tower enough so that it can be eliminated from the roulette."
+            str_return += f", you have beaten this {self.get_tower_type().lower()} enough so that it can be eliminated from the roulette."
             return str_return
         if self.__times_beaten == 0:
-            str_return += ", you didn't beat this tower yet"
+            str_return += f", you didn't beat this {self.get_tower_type().lower()} yet"
         elif self.__times_beaten == 1:
-            str_return += ", you beat this tower once"
+            str_return += f", you beat this {self.get_tower_type().lower()} once"
         else:
-            str_return += f", you beat this tower {self.__times_beaten} times"
+            str_return += f", you beat this {self.get_tower_type().lower()} {self.__times_beaten} times"
         if self.__beat_limit == 1:
             str_return += ", and you need to beat it once to eliminate it."
         else:
@@ -38,3 +38,11 @@ class RouletteStructure(Structure):
         return self.__eliminated
     def show_fraction(self) -> str:
         return str(self.__times_beaten) + "/" + str(self.__beat_limit)
+    def set_beat_limit(self, beat_limit : int):
+        self.__beat_limit = beat_limit
+        if self.__times_beaten < self.__beat_limit:
+            self.__eliminated = False
+        else:
+            self.__eliminated = True
+    def get_beat_limit(self) -> int:
+        return self.__beat_limit

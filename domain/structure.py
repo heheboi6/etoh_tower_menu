@@ -30,12 +30,16 @@ class Structure:
             return f"{self.__DIFFICULTY_FLAVORS[flavor_difficulty]} {self.__DIFFICULTY_ASSOCIATION[int(self.get_difficulty())]}"
     def get_acronym(self) -> str:
         acronym = ""
+        true_name = self.get_name()
+        if "100M" in self.get_name():
+            acronym += "100M"
+            true_name = self.get_name().replace("100M ", "")
         acronym_char = True
-        for character in self.get_name():
+        for character in true_name:
             if acronym_char:
                 acronym += character
                 acronym_char = False
-            elif character == " ":
+            elif character == " " or character == "-":
                 acronym_char = True
             elif character == "(" or character == ")":
                 acronym_char = True

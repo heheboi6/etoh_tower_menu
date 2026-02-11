@@ -2,7 +2,10 @@ ToIG 0/1
 CoGS 0/1
 ITAT 0/1
 SoWG 0/1
-R1TR 0/1
+ToEE 0/1
+ToAP(M) 0/1
+ToMDC 0/1
+Z2TR 0/1
 PoMTR 0/1
 @
 from start True

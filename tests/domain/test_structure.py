@@ -13,6 +13,10 @@ class TestStructure(unittest.TestCase):
         self.__structure_test_6 = Structure("Steeple of Gears Locked Up Because It's Cold(April Fools 2023)","Something Otherwordly...",8.77,"Steeple")
         self.__structure_test_7 = Structure("Tower of Tallying Every Mistake","Lost River",7.00,"Tower")
         self.__structure_test_8 = Structure("Wait of The World","The Doghouse",17.00,"Tower")
+        self.__structure_test_9 = Structure("Wasn't Really A Tower, Honestly(Halloween 2025)","Saint Venoma",6.92,"Mini Tower")
+        self.__structure_test_10 = Structure("Citadel of A Bug's Life!(April Fools 2023)","April Fools 2023",6.94,"Citadel")
+        self.__structure_test_11 = Structure("Tower of Yelling : Slightly Upset(April Fools 2025)","April Fools 2025",2.54,"Tower")
+        self.__structure_test_12 = Structure("Time-Lost Plain Tower Rush","Time-Lost Plain",8.97,"Tower Rush")
     def test_init_structure(self):
         self.assertEqual(self.__structure_test_1.get_name(),"Tower of Infinity Gauntlet")
         self.assertEqual(self.__structure_test_2.get_area(),"Zone 2")
@@ -25,6 +29,10 @@ class TestStructure(unittest.TestCase):
         self.assertEqual(self.__structure_test_4.get_acronym(),"ToWP(M)")
         self.assertEqual(self.__structure_test_5.get_acronym(),"SoPP(H2020)")
         self.assertEqual(self.__structure_test_6.get_acronym(),"SoGLUBIC(AF2023)")
+        self.assertEqual(self.__structure_test_9.get_acronym(),"WRATH(H2025)")
+        self.assertEqual(self.__structure_test_10.get_acronym(),"CoABL(AF2023)")
+        self.assertEqual(self.__structure_test_11.get_acronym(),"ToY:SU(AF2025)")
+        self.assertEqual(self.__structure_test_12.get_acronym(),"TLPTR")
     def test_str(self):
         self.assertEqual(str(self.__structure_test_1), "Tower of Infinity Gauntlet, from Ring 1, with the difficulty Low Insane(8.23)")
         self.assertEqual(str(self.__structure_test_2), "Citadel of Green Stuff, from Zone 2, with the difficulty Low-Mid Intense(6.39)")
