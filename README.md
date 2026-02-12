@@ -1,5 +1,7 @@
 Welcome to etoh_tower_menu!
 
+First of all, the first complete version of the application is on the branch console_branch, so please change the branch before downloading the application.
+
 To run this file, you need to download the project as a .ZIP file(or clone it, if you want), and then the next steps depend if you have PyCharm or not:
 1. If you have PyCharm, just open the project in PyCharm(File -> Open and then select the folder etoh_tower_menu), and then go to main.py and run the program.
 2. If you don't have PyCharm, you will need to use the Command Prompt to run thee program. The steps are:
